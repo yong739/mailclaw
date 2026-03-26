@@ -1,0 +1,22 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "mailclaw",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-07-15",
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "D1",
+			"database_name": "mailclaw-d1",
+			"database_id": "6055bf8f-6f33-4712-bc67-d153840f71a3",
+			"remote": true
+		}
+	],
+	"workers_dev": true,
+	"preview_urls": false,
+	"placement": {
+		"mode": "smart"
+	}
+}
